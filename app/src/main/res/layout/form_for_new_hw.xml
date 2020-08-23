@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/nameInp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name of Assignment" />
+
+    <EditText
+        android:id="@+id/descInp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Description of Assigment" />
+
+    <Button
+        android:id="@+id/dateInp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Due Date" />
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/border_for_app"
+        android:focusableInTouchMode="false" />
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add this Assignment" />
+
+
+</LinearLayout>
